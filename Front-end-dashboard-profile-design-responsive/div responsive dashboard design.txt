@@ -1,0 +1,79 @@
+   <div className=' '>
+            <div className='block lg:grid lg:justify-center'>
+                <div className="drawer ">
+                    <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+                    <div className="grid sm:grid-cols-1 lg:grid-cols-2 ">
+                        {/* Navbar */}
+                        <div className=" bg-base-300">
+                            {/* <div className="flex-none hidden lg:hidden">
+                                <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                                </label>
+                            </div> */}
+
+                            {/* left side */}
+                            <div className='hidden lg:block min-h-screen bg-gray-800 text-white n'>
+                                {/* <div className="hidden lg:block flex-1 px-2 mx-2">Navbar Title</div> */}
+                                <div className="">
+                                    <ul className=" menu menu-vertical">
+                                        {/* Navbar menu content here */}
+                                        <img src="" alt="" />
+                                        <div className='border text-center my-5'>
+                                            <li className='text-center'><a>Name</a></li>
+                                            <li><a>Email@gmail.com</a></li>
+                                        </div>
+                                        <li><a>Order</a></li>
+                                        <li><a>Transaction</a></li>
+                                        <li><a>Profile</a></li>
+                                        <li><a>Setting</a></li>
+                                        <li><a>Log out</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* right side big screen */}
+                        <div className='  border bg-slate-300 '>
+                            {/* Page content here */}
+                            <label htmlFor="my-drawer-3" className="block lg:hidden btn btn-square btn-ghost">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                            </label>
+
+
+                            {/* content */}
+                            <PersonalProfile></PersonalProfile>
+                            {/* <h1>Hello</h1>
+                            <h1>Hello</h1>
+                            <h1>Hello</h1>
+                            <h1>Hello</h1>
+                            <h1>Hello</h1>
+                            <h1>Hello</h1>
+                            <h1>Hello</h1> */}
+
+                            {/* hello hello hello hello
+                            lorem*1 <br /> hwllo hekaslkdfa sidfasoidfh asdjfasdfj
+                            asjdfkasjdfksajdf <br />
+                            asjdfasjdfasjdf */}
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div className="drawer-side">
+                        <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
+                        <ul className="menu p-4 w-80 h-full bg-base-200">
+                            {/* Sidebar content here */}
+                            <li><a>Sidebar Item 1</a></li>
+                            <li><a>Sidebar Item 2</a></li>
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
